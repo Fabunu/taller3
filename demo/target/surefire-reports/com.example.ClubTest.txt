@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: com.example.ClubTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.135 s <<< FAILURE! -- in com.example.ClubTest
+com.example.ClubTest.testAsignacionDeportistaAUnEquipo -- Time elapsed: 0.044 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getEquipo() is undefined for the type Deportista
+
+	at com.example.ClubTest.testAsignacionDeportistaAUnEquipo(ClubTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testDeportistaSoloUnEquipo -- Time elapsed: 0.005 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getEquipo() is undefined for the type Deportista
+
+	at com.example.ClubTest.testDeportistaSoloUnEquipo(ClubTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testRegistroDeportistaCorrecto -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getDeportistas() is undefined for the type Club
+
+	at com.example.ClubTest.testRegistroDeportistaCorrecto(ClubTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testPartidoSinErroresAsignacionCancha -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	Partido cannot be resolved to a type
+	Partido cannot be resolved to a type
+	The method assertTrue(boolean, String) is undefined for the type ClubTest
+
+	at com.example.ClubTest.testPartidoSinErroresAsignacionCancha(ClubTest.java:101)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testEntrenadorSoloUnEquipo -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getEquipo() is undefined for the type Entrenador
+
+	at com.example.ClubTest.testEntrenadorSoloUnEquipo(ClubTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testRegistroDeportistaDuplicado -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getDeportistas() is undefined for the type Club
+
+	at com.example.ClubTest.testRegistroDeportistaDuplicado(ClubTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testRegistroEntrenadorCorrecto -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method registrarEntrenador(Entrenador) is undefined for the type Club
+	The method getEntrenadores() is undefined for the type Club
+
+	at com.example.ClubTest.testRegistroEntrenadorCorrecto(ClubTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testRegistroEntrenadorDuplicado -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method registrarEntrenador(Entrenador) is undefined for the type Club
+	The method registrarEntrenador(Entrenador) is undefined for the type Club
+	The method getEntrenadores() is undefined for the type Club
+
+	at com.example.ClubTest.testRegistroEntrenadorDuplicado(ClubTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testCreacionEquipoCorrecta -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The method registrarEquipo(Equipo) is undefined for the type Club
+	The method getEquipos() is undefined for the type Club
+
+	at com.example.ClubTest.testCreacionEquipoCorrecta(ClubTest.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.ClubTest.testRegistroPartidoCorrecto -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	Partido cannot be resolved to a type
+	Partido cannot be resolved to a type
+	The method getPartidos() is undefined for the type Club
+
+	at com.example.ClubTest.testRegistroPartidoCorrecto(ClubTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
