@@ -1,8 +1,6 @@
 package com.example;
 
 import java.util.Date;
-import java.util.List;
-import java.ArrayList;
 
 public class Partidos {
 	private Equipo equipo1;
@@ -12,12 +10,12 @@ public class Partidos {
 	private Cancha cancha;
 	
 
-	public Partido(Equipo equipo1, Equipo equipo2, Date fecha, Cancha cancha) {
+	public Partidos(Equipo equipo1, Equipo equipo2, Date fecha, Cancha cancha) {
 		this.equipo1 = equipo1;
 		this.equipo2 = equipo2;
 		this.fecha = fecha;
 		this.cancha = cancha;
-
+	
 		if (cancha.consultarDisponibilidad(fecha)) {
 			cancha.reservarCancha(fecha);
 		} else {
@@ -32,7 +30,7 @@ public class Partidos {
 	public String getResultado() {
 		return resultado;
 	}
-	}
+}
 
 
 
