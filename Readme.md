@@ -8,3 +8,5 @@ clases
 -Entrenador
 -Partidos
 -Canchas
+
+Subi por error la clase deportes en codigo, no esta bien
