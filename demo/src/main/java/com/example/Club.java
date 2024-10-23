@@ -15,12 +15,29 @@ public class Club {
 		this.equipos = new ArrayList<>();
 		this.partidos = new ArrayList<>();
 	}
+
+	public List<Deportista> getDeportistas() {
+        return deportistas;
+    }
+
+    public List<Entrenador> getEntrenadores() {
+        return entrenadores;
+    }
+
+    public List<Equipo> getEquipos() {
+        return equipos;
+    }
+
+    public void registrarEquipo(Equipo equipo) {
+        equipos.add(equipo);
+    }
+
+    public void registrarEntrenador(Entrenador entrenador) {
+        entrenadores.add(entrenador);
+    }
+
 	public void registrarDeportista(Deportista deportista) {
 		deportistas.add(deportista);
-	}
-
-	public void registrarEntrenadores(Entrenador entrenador) {
-		entrenadores.add(entrenador);
 	}
 
 	public void registrarEquipos(Equipo equipo) {

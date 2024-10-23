@@ -1,8 +1,5 @@
 package com.example;
 
-import java.util.Date;
-import java.util.List;
-
 public class Entrenador {
 	private String nombre;
 	private int experiencia;
@@ -17,6 +14,14 @@ public class Entrenador {
 
 	public String getNombre() {
         return nombre;
+    }
+
+    public Equipo getEquipo() {
+        return equipo;
+    }
+    
+    public void setEquipo(Equipo equipo) {
+        this.equipo = equipo;
     }
 
     public void asignarEquipo(Equipo equipo) {

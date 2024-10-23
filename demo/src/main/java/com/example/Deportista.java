@@ -1,8 +1,5 @@
 package com.example;
 
-import java.util.Date;
-import java.util.List;
-
 public class Deportista {
 	private String nombre;
 	private String apellido;
@@ -15,6 +12,13 @@ public class Deportista {
         this.apellido = apellido;
         this.contacto = contacto;
         this.deporte = deporte;
+    }
+    public Equipo getEquipo() {
+        return equipo;
+    }
+
+    public void setEquipo(Equipo equipo) {
+        this.equipo = equipo;
     }
 
 	public String getNombre() {
