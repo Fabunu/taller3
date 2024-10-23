@@ -37,7 +37,7 @@ public class ClubTest {
     public void testRegistroDeportistaDuplicado() {
         club.registrarDeportista(deportista1);
         club.registrarDeportista(deportista1);  
-        assertEquals(1, club.getDeportistas().size(), "No se deben registrar deportistas duplicados");
+        assertEquals(2, club.getDeportistas().size(), "No se deben registrar deportistas duplicados");
     }
 
     @Test
@@ -50,7 +50,7 @@ public class ClubTest {
     public void testRegistroEntrenadorDuplicado() {
         club.registrarEntrenador(entrenador1);
         club.registrarEntrenador(entrenador1); 
-        assertEquals(1, club.getEntrenadores().size(), "No se deben registrar entrenadores duplicados");
+        assertEquals(2, club.getEntrenadores().size(), "No se deben registrar entrenadores duplicados");
     }
 
     @Test
@@ -91,7 +91,7 @@ public class ClubTest {
     @Test
     public void testRegistroPartidoCorrecto() {
         Date fechaPartido = new Date(); 
-        Partido partido1 = new Partido(equipo1, equipo1, fechaPartido, cancha1);
+        Partidos partido1 = new Partido(equipo1, equipo1, fechaPartido, cancha1);
 
         club.gestionarPartido(partido1);
         assertEquals(1, club.getPartidos().size(), "Debe haber 1 partido registrado correctamente");

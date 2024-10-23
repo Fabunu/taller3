@@ -1,50 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: com.example.ClubTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 0.142 s <<< FAILURE! -- in com.example.ClubTest
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.132 s <<< FAILURE! -- in com.example.ClubTest
 com.example.ClubTest.testPartidoSinErroresAsignacionCancha -- Time elapsed: 0.011 s <<< ERROR!
 java.lang.Error: 
 Unresolved compilation problems: 
-	The method assertTrue(boolean, String) is undefined for the type ClubTest
-	The method getCancha() is undefined for the type Partidos
+	The public type Main must be defined in its own file
+	Partido cannot be resolved to a type
+	Partido cannot be resolved to a type
+	Syntax error on token "}", @ expected
+	Explicación cannot be resolved to a type
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+	Syntax error, insert "}" to complete ClassBody
 
+	at com.example.Partidos.<init>(Partidos.java:70)
 	at com.example.ClubTest.testPartidoSinErroresAsignacionCancha(ClubTest.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-com.example.ClubTest.testRegistroDeportistaDuplicado -- Time elapsed: 0.007 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: No se deben registrar deportistas duplicados ==> expected: <1> but was: <2>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at com.example.ClubTest.testRegistroDeportistaDuplicado(ClubTest.java:38)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-com.example.ClubTest.testRegistroEntrenadorDuplicado -- Time elapsed: 0.003 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: No se deben registrar entrenadores duplicados ==> expected: <1> but was: <2>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at com.example.ClubTest.testRegistroEntrenadorDuplicado(ClubTest.java:51)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
-com.example.ClubTest.testRegistroPartidoCorrecto -- Time elapsed: 0.003 s <<< ERROR!
+com.example.ClubTest.testRegistroPartidoCorrecto -- Time elapsed: 0.004 s <<< ERROR!
 java.lang.Error: 
 Unresolved compilation problems: 
 	Partido cannot be resolved to a type
-	Partido cannot be resolved to a type
+	The method gestionarPartido(Partidos) is undefined for the type Club
 	The method getPartidos() is undefined for the type Club
 
-	at com.example.ClubTest.testRegistroPartidoCorrecto(ClubTest.java:92)
+	at com.example.ClubTest.testRegistroPartidoCorrecto(ClubTest.java:94)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)

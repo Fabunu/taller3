@@ -23,6 +23,14 @@ public class Partidos {
 		}
 	}
 	
+	public Cancha getCancha() {
+		return cancha;
+	}
+
+	public void setCancha(Cancha cancha) {
+		this.cancha = cancha;
+	}
+
 	public void registrarResultado(String resultado) {
 		this.resultado = resultado;
 	}
