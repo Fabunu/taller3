@@ -3,6 +3,8 @@ package com.example;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import java.util.Date;
 
@@ -98,7 +100,7 @@ public class ClubTest {
     @Test
     public void testPartidoSinErroresAsignacionCancha() {
         Date fechaPartido = new Date(); 
-        Partido partido1 = new Partido(equipo1, equipo1, fechaPartido, cancha1);
+        Partidos partido1 = new Partidos(equipo1, equipo1, fechaPartido, cancha1);
 
         assertTrue(cancha1.consultarDisponibilidad(fechaPartido), "La cancha debe estar disponible antes de reservar");
         assertEquals(cancha1, partido1.getCancha(), "La cancha debe asignarse correctamente al partido");
